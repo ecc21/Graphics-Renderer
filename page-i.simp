@@ -1,0 +1,56 @@
+{
+	ambient 1 1 0.9
+	{
+		translate 0 25 -32
+		camera  -1 -1 1 1 -0.1 -200
+		depth 0 -200 (0 0 0)
+	}
+	{
+		translate 0 2 -30
+		light 1, 1, 1, 1, 0
+		file "lightMarker"	
+	}
+	{
+		surface  0.3 0.3 0.3 .8 64
+		scale 4 4 4 
+		{
+			translate -2 7 -13
+			file "cube"
+		}
+		translate 1 7 -13
+		file "cube"
+	}
+	
+	surface 0.5 0.5 0.3 .8 64
+	{
+		rotate X 5
+		translate 0 0 -40
+		rotate Y 45
+		translate -3 20 -5
+		obj "P2_Pikachu"
+	}
+	{
+		rotate X 5
+		translate 0 0 -40
+		rotate Y -45
+		translate 3 20 -5
+		obj "P2_Pikachu"
+	}
+	{
+		#rotate X 5
+		scale 1.1 1.1 1.1
+		translate 0 1 -31
+		#rotate Y -45
+		translate 0 20 -5
+		obj "P2_Pikachu"
+	}
+	{
+		#rotate X 5
+		#scale 1.1 1.1 1.1
+		translate 0 1 -31
+		#rotate Y -45
+		translate 0 20 -5
+		obj "P2_Pikachu"
+	}
+	
+}
